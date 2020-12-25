@@ -1,5 +1,5 @@
 {
-  "name": "RoelReijn/laravel-sms-api",
+  "name": "roelreijn/laravel-sms-api",
   "version":"3.0.2",
   "description": "Laravel package to provide SMS API integration. Any SMS vendor that provides REST API can be used. SMS-API channel for Laravel notifications also included.",
   "license": "MIT",
