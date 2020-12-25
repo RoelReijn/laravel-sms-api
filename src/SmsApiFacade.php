@@ -1,5 +1,5 @@
 <?php
-namespace Gr8Shivam\SmsApi;
+namespace RoelReijn\SmsApi;
 use Illuminate\Support\Facades\Facade;
 
 class SmsApiFacade extends Facade

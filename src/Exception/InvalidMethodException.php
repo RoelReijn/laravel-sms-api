@@ -1,5 +1,5 @@
 <?php
-namespace Gr8Shivam\SmsApi\Exception;
+namespace RoelReijn\SmsApi\Exception;
 
 class InvalidMethodException extends Exception {
 

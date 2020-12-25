@@ -1,9 +1,9 @@
 <?php
 
-namespace Gr8Shivam\SmsApi\Tests;
+namespace RoelReijn\SmsApi\Tests;
 
 use Orchestra\Testbench\TestCase;
-use Gr8Shivam\SmsApi\SmsApiServiceProvider;
+use RoelReijn\SmsApi\SmsApiServiceProvider;
 
 abstract class AbstractTestCase extends TestCase
 {
@@ -31,7 +31,7 @@ abstract class AbstractTestCase extends TestCase
     protected function getPackageAliases($app)
     {
         return [
-            'SmsApi' => \Gr8Shivam\SmsApi\SmsApiFacade::class,
+            'SmsApi' => \RoelReijn\SmsApi\SmsApiFacade::class,
         ];
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace Gr8Shivam\SmsApi\Notifications;
+namespace RoelReijn\SmsApi\Notifications;
 
 class SmsApiMessage
 {

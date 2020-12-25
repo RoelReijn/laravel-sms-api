@@ -1,6 +1,6 @@
 <?php
 
-namespace Gr8Shivam\SmsApi\Exception;
+namespace RoelReijn\SmsApi\Exception;
 
 class Exception extends \Exception {
 

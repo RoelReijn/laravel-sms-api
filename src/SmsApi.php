@@ -1,13 +1,13 @@
 <?php
 
-namespace Gr8Shivam\SmsApi;
+namespace RoelReijn\SmsApi;
 
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\Log;
 use GuzzleHttp\Exception\RequestException;
-use Gr8Shivam\SmsApi\Exception\InvalidMethodException;
+use RoelReijn\SmsApi\Exception\InvalidMethodException;
 
 class SmsApi
 {

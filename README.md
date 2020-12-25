@@ -22,18 +22,18 @@ Once the package is added, the service provider and facade will be autodiscovere
 #### For Older versions of Laravel
 Add the ServiceProvider to the providers array in `config/app.php`:
 ```
-Gr8Shivam\SmsApi\SmsApiServiceProvider::class,
+RoelReijn\SmsApi\SmsApiServiceProvider::class,
 ```
 
 Add the Facade to the aliases array in `config/app.php`:
 ```
-'SmsApi': Gr8Shivam\SmsApi\SmsApiFacade::class,
+'SmsApi': RoelReijn\SmsApi\SmsApiFacade::class,
 ```
 
 ### Publish Config
 Once done, publish the config to your config folder using:
 ```
-php artisan vendor:publish --provider="Gr8Shivam\SmsApi\SmsApiServiceProvider"
+php artisan vendor:publish --provider="RoelReijn\SmsApi\SmsApiServiceProvider"
 ```
 
 ## Configuration
@@ -147,11 +147,11 @@ By default, your User model uses Notifiable.
 
 Add 
 
-`use Gr8Shivam\SmsApi\Notifications\SmsApiChannel;`
+`use RoelReijn\SmsApi\Notifications\SmsApiChannel;`
 
 and 
 
-`use Gr8Shivam\SmsApi\Notifications\SmsApiMessage;`
+`use RoelReijn\SmsApi\Notifications\SmsApiMessage;`
 
 to your notification. 
 
@@ -163,8 +163,8 @@ Notification example:-
 ```
 namespace App\Notifications;
 
-use Gr8Shivam\SmsApi\Notifications\SmsApiChannel;
-use Gr8Shivam\SmsApi\Notifications\SmsApiMessage;
+use RoelReijn\SmsApi\Notifications\SmsApiChannel;
+use RoelReijn\SmsApi\Notifications\SmsApiMessage;
 use Illuminate\Notifications\Notification;
 
 class ExampleNotification extends Notification
@@ -191,6 +191,8 @@ Feel free to post your issues in the issues section.
 
 ## Credits
 Developed by [Shivam Agarwal](https://github.com/gr8shivam "Shivam Agarwal")
+
+Maintained by [Roel Reijneveld](https://github.com/RoelReijn)
 
 Thanks to [laravel-ovh-sms](https://github.com/MarceauKa/laravel-ovh-sms "laravel-ovh-sms") & [softon-sms](https://github.com/softon/sms "softon-sms")
 

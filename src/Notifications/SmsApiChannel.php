@@ -1,9 +1,9 @@
 <?php
 
-namespace Gr8Shivam\SmsApi\Notifications;
+namespace RoelReijn\SmsApi\Notifications;
 
-use Gr8Shivam\SmsApi\Notifications\SmsApiMessage;
-use Gr8Shivam\SmsApi\SmsApi;
+use RoelReijn\SmsApi\Notifications\SmsApiMessage;
+use RoelReijn\SmsApi\SmsApi;
 use Illuminate\Notifications\Notification;
 
 class SmsApiChannel
@@ -24,7 +24,7 @@ class SmsApiChannel
      * @param  mixed $notifiable
      * @param  \Illuminate\Notifications\Notification $notification
      * @return void
-     * @throws \Gr8Shivam\SmsApi\Exception\InvalidMethodException
+     * @throws \RoelReijn\SmsApi\Exception\InvalidMethodException
      */
     public function send($notifiable, Notification $notification)
     {

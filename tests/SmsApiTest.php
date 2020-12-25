@@ -1,6 +1,6 @@
 <?php
 
-namespace Gr8Shivam\SmsApi\Tests;
+namespace RoelReijn\SmsApi\Tests;
 
 use SmsApi;
 
@@ -18,5 +18,5 @@ class SmsApiTest extends AbstractTestCase
       $this->assertNotEmpty($response,"Response is empty.");
   }
 
-  //TODO: Add more tests (https://github.com/gr8shivam/laravel-sms-api/issues/3)
+  //TODO: Add more tests (https://github.com/RoelReijn/laravel-sms-api/issues/3)
 }

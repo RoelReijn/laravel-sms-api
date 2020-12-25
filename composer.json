@@ -17,7 +17,13 @@
       "name": "Shivam Agarwal",
       "email": "gr8shivam25@gmail.com",
       "homepage": "https://github.com/gr8shivam",
-      "role": "Developer"
+      "role": "Original Developer"
+    },
+    {
+      "name": "Roel Reijneveld",
+      "email": "info@roelreijneveld.nl",
+      "homepage": "https://roelreijneveld.nl",
+      "role": "Maintainer"
     }
   ],
   "require": {
@@ -31,7 +37,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Gr8Shivam\\SmsApi\\": "src"
+      "RoelReijn\\SmsApi\\": "src"
     },
     "files": [
       "src/functions.php"
@@ -39,17 +45,17 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Gr8Shivam\\SmsApi\\Tests\\": "tests/"
+      "RoelReijn\\SmsApi\\Tests\\": "tests/"
     }
   },
   "minimum-stability":"stable",
   "extra": {
         "laravel": {
             "providers": [
-                "Gr8Shivam\\SmsApi\\SmsApiServiceProvider"
+                "RoelReijn\\SmsApi\\SmsApiServiceProvider"
             ],
             "aliases": {
-                "SmsApi": "Gr8Shivam\\SmsApi\\SmsApiFacade"
+                "SmsApi": "RoelReijn\\SmsApi\\SmsApiFacade"
             }
         }
     }

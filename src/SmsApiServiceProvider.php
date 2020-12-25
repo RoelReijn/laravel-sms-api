@@ -1,9 +1,9 @@
 <?php
 
-namespace Gr8Shivam\SmsApi;
+namespace RoelReijn\SmsApi;
 
 use Illuminate\Support\ServiceProvider;
-use Gr8Shivam\SmsApi\SmsApi;
+use RoelReijn\SmsApi\SmsApi;
 
 class SmsApiServiceProvider extends ServiceProvider
 {
