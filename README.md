@@ -1,16 +1,18 @@
-[![Packagist](https://img.shields.io/packagist/v/gr8shivam/laravel-sms-api.svg)](https://packagist.org/packages/gr8shivam/laravel-sms-api) [![Packagist](https://img.shields.io/packagist/dt/gr8shivam/laravel-sms-api.svg)](https://packagist.org/packages/gr8shivam/laravel-sms-api) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gr8shivam/laravel-sms-api/master/LICENSE)
+[![Packagist](https://img.shields.io/packagist/v/roelreijn/laravel-sms-api.svg)](https://packagist.org/packages/roelreijn/laravel-sms-api) [![Packagist](https://img.shields.io/packagist/dt/roelreijn/laravel-sms-api.svg)](https://packagist.org/packages/roelreijn/laravel-sms-api) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/roelreijn/laravel-sms-api/master/LICENSE)
+
+> ⚠ This is a fork from [gr8shivam/laravel-sms-api](https://github.com/gr8shivam/laravel-sms-api) which has support for Laravel 8 and is published on Packagist. You're thus able to install this with composer.
 
 # Integrate SMS API with Laravel
 Laravel package to provide SMS API integration. Any SMS vendor that provides REST API can be used.
 
-#### [Star ⭐](https://github.com/gr8shivam/laravel-sms-api) repo to show suport 😊
+#### [Star ⭐](https://github.com/roelreijn/laravel-sms-api) repo to show suport 😊
 
 ## Installation
 
 ### Install Package
 Require this package with composer:
 ```
-composer require gr8shivam/laravel-sms-api
+composer require roelreijn/laravel-sms-api
 ```
 ### Add Service Provider & Facade
 
